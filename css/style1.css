@@ -1,0 +1,245 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+header{
+    width:100%;
+    height:100vh;
+    background-color: #1a52f9;
+    background-image: linear-gradient(19deg,#1e52f9 0%,#b721ff);
+    position: relative;
+}
+nav{
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: space-around;
+    align-items:absolute;
+    position: sticky;
+    top :0;
+    cursor: pointer;
+   
+}
+.logo
+{
+    color: blanchedalmond;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+  
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0.5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    margin: 20px;
+
+}
+.active,ul li:hover{
+
+    /* border-top: 2px solid #5dade2; */
+    /* background-color: aqua; */
+    border-bottom: 2px solid #5dade2;
+    transition: 0.4s ease;
+}
+.sign a{
+    color: white;
+    width: 120px;
+    height: 35px;
+    background-color: #d465ef;
+    padding: 5px 16px;
+    font-style: 14px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-left: 950px;
+
+}
+.sign a:hover{
+    background: linear-gradient(to bottom,#61cfd6 0%,#d465ef 100%);
+}
+
+.content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.content h1{
+    color: wheat;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+.content a{
+    color: white;
+    width: 15px;
+    height: 15px;
+    background-color: #d465ef;
+    padding: 5px 16px;
+    font-style: 14px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+}
+.content a:hover{
+    background: linear-gradient(to bottom,#61cfd6 0%,#d465ef 100%);
+}
+.content h1:before
+{
+    content: "";
+    width: 200px;
+    margin-bottom: 30px;
+    height: auto;
+    border: 2px solid #fff;
+    position: absolute;
+    right: 400px;
+    bottom: 0;
+}
+.grid{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 70%;
+    bottom: 150px;
+}  
+.grid img{
+    /* width: 300px;
+    height: 300x; */
+    width: 300px;
+    border: 4px solid white;
+    display: block;
+    margin: auto;
+    border-radius: 500px;
+}
+
+.contact
+{
+    background-color: #f6f5f4;
+    height: 100vh;
+    
+}
+.contact h1{
+    text-align: center;
+    font-size: 50px;
+}
+.form
+{
+    max-width:800px;
+    margin: auto;
+}
+.form-input{
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 2px 5px;
+
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    color: black;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.tech{
+    margin-top:5px;
+    height:400px;
+    width:100%;
+    background-color:none;
+    }
+
+.tech img
+{
+border: 2px solid white;
+border-radius: 10px;
+}
+.definition{
+    height:100%;
+    width:50%;
+    float:left;
+    background-color:none;
+}
+.definition h1{
+    padding-top:15px;
+    text-align:center;
+    font-size:25px;
+    color:#25f00a;
+}
+.definition p{
+    text-align:justify;
+    font-size:17px;
+    padding-left:15px;
+    padding-right:15px;
+    margin-top: 25px;
+}
+.image{
+    height:80%;
+    width:80%;
+    background-color:none;
+    margin:10%;
+}
+
+.lang{
+    margin-top:10px;
+    height:250px;
+    width:100%;
+    background-color:none;
+    }
+.title{
+    height:50px;
+    width:100%;
+    background-color:none;
+}
+.title h1{
+    margin-top:10px;
+    text-align:center;
+    font-size:25px;
+    color:#2C3B79;
+}
+.frame{
+    margin-top:20px;
+    height:170px;
+    width:100%;
+    background-color:#F5F6F6;
+
+}
+.col{
+    margin-top:20px;
+    margin-left:5px;
+    height:90px;
+    width:150px;
+    float:left;
+   
+}
+
+.col img{
+    border: 2px solid white;
+    border-radius: 100px;
+    margin-left: 20px;
+    
+}
+figcaption{
+    margin: 20px;
+}
+
+.footer{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 30px 30px;
+    font-size: 20px;
+}

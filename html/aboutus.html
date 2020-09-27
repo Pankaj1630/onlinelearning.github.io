@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="/css/style1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    align-content: center;
+}
+.sect{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 90vh;
+    width: 170vh;
+    padding: 30px;
+}
+
+.imag{
+    background-image: url("/images/about.jpg");
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 200px;
+}
+.about h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+.about p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-top: 15px;
+    color: white;
+}
+.icon{
+    display: flex;
+    padding: 15px ;
+}
+.icon li{
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    /* border: 2px solid white; */
+    border-radius: 500px;
+}
+.icon a{
+    font-size: 25px;
+    color: white;
+    opacity: 0.8;
+}
+.icon li a:hover{
+    color: aqua;
+}
+
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>
+                    <marquee behavior="scroll">Online Learning</marquee>
+                </h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="/html/home.html" class="active">Home</a></li>
+                    <li><a href="/html/book.html">Books</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="/html/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="sect">
+        <div class="imag">
+            <!-- imadge here -->
+        </div>
+        <div class="about">
+            <h2>About US</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui voluptates illo necessitatibus dolores quos excepturi est! Impedit perspiciatis harum aliquam dolore, quasi dicta est, iure ipsum reprehenderit ducimus exercitationem assumenda maxime laborum culpa in.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui voluptates illo necessitatibus dolores quos excepturi est! Impedit perspiciatis harum aliquam dolore, quasi dicta est, iure ipsum reprehenderit ducimus exercitationem assumenda maxime laborum culpa in.</p>
+            <ul class="icon">
+                <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+        </section>
+        </header>
+</body>
+</html>
